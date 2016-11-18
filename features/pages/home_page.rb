@@ -1,6 +1,6 @@
 class HomePage
  include PageObject
- page_url('http://ft.com')
+ page_url('http://www.ft.com')
 
  button :sign_in, :name => 'Sign In'
 
