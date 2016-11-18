@@ -1,9 +1,9 @@
 Given(/^I am on the ft site$/) do
-  visit(LoginPage)
+  @Homepage = visit(HomePage)
 end
 
 When(/^I click the login button$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  @Homepage.select_sign_in
 end
 
 Then(/^I am on the login page$/) do
