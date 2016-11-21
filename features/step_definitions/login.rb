@@ -28,6 +28,6 @@ And(/^I click sign in button$/) do
 end
 
 
-Then(/^I should be logged in successfully$/) do
-  on(LoginPage).my_account_link?
+Then(/^I (?:should be|have) logged in successfully$/) do
+  on(NavigationPrimary).my_account_link?
 end

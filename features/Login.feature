@@ -8,7 +8,6 @@ Feature:
     When I click the login button
     Then I am on the login page
 
-@wip
   Scenario Outline: Sign in to the FT website as a subscriber
     #Given I am on the login page - this was the same as the last step in the above sc
     Given I have navigated to the login page

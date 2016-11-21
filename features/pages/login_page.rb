@@ -5,7 +5,7 @@ class LoginPage
   text_field(:email_address, :id => 'email')
   text_field(:password, :id => 'password')
   button(:sign_in_btn, :id => 'submit-btn')
-  link(:my_account_link, :css => '#o-header-nav-desktop [data-trackable = "My Account"]')
+  #link(:my_account_link, :css => '#o-header-nav-desktop [data-trackable = "My Account"]') - moved to Navigation Primary Class
 
 
   #button(:signin, :id => 'submit-btn')
