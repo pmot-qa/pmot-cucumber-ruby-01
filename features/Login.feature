@@ -17,6 +17,7 @@ Feature:
     And I click sign in button
     Then I should be logged in successfully
 
+
     Examples:
     | my_email | my_password |
-    | test | test |
+    | nextpremium@ftqa.org  | premium1    |
