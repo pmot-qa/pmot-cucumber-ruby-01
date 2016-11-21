@@ -8,5 +8,7 @@ When(/^I click the login button$/) do
 end
 
 Then(/^I am on the login page$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  on(LoginPage).text_field.email
+  on(LoginPage).text_field.password
 end
+
