@@ -15,7 +15,7 @@ end
 
 Given(/^I have navigated to the login page$/) do
   @Homepage = visit(HomePage)
-  on(HomePage).sign_inn
+  on(HomePage).sign_in
 end
 
 
