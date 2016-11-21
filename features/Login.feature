@@ -20,4 +20,4 @@ Feature:
 
     Examples:
     | my_email | my_password |
-    | nextpremium@ftqa.org  | premium1    |
+    | nextpremium@ftqa.org  | premium1  |
