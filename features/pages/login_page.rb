@@ -5,6 +5,8 @@ class LoginPage
   text_field(:email_address, :id => 'email')
   text_field(:password, :id => 'password')
   button(:sign_in_btn, :id => 'submit-btn')
+  link(:my_account_link, :css => '#o-header-nav-desktop [data-trackable = "My Account"]')
+
 
   #button(:signin, :id => 'submit-btn')
 
@@ -25,6 +27,7 @@ class LoginPage
       else
         puts "invalid field name"
     end
-end
   end
+
+end
 

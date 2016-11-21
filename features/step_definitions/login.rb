@@ -27,3 +27,7 @@ And(/^I click sign in button$/) do
   on(LoginPage).sign_in_btn
 end
 
+
+Then(/^I should be logged in successfully$/) do
+  on(LoginPage).my_account_link?
+end
