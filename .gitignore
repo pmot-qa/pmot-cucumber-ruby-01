@@ -1,1 +1,15 @@
 .idea
+<<<<<<< HEAD
+=======
+*.iml
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+.DS_Store
+*.swp
+fixture.html
+images
+results
+tmp
+>>>>>>> b85993d9052e75260c8caa134829824bb5630220
