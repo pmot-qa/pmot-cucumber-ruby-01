@@ -26,6 +26,8 @@ class LoginPage
       else
         puts "invalid field name"
     end
-end
+  end
+
+
   end
 
