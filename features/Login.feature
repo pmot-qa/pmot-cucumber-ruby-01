@@ -18,5 +18,7 @@ Feature:
 
 
     Examples:
-    | my_email | my_password |
-    | nextpremium@ftqa.org  | premium1  |
+    | my_email              | my_password |
+    | nextpremium@ftqa.org  | premium1    |
+
+
